@@ -1,0 +1,502 @@
+# Instancia A:
+I 10001 OSenhorDosAneis,JRRRTolkien,1954,Fantasia
+I 10002 DomCasmurro,MachadoDeAssis,1899,Romance
+I 10003 1984,GeorgeOrwell,1949,FiccaoCientifica
+I 10004 OrgulhoEPreconceito,JaneAusten,1813,Romance
+I 10005 OPequenoPrincipe,AntoineDeSaintExupery,1943,Infantil
+I 10006 CrimeEPunicao,FiodorDostoievski,1866,Ficcao
+I 10007 Hamlet,WilliamShakespeare,1603,Drama
+I 10008 MemoriasPostumasDeBrasCubas,MachadoDeAssis,1881,Romance
+I 10009 OGrandeGatsby,FScottFitzgerald,1925,Romance
+I 10010 ARevolucaoDosBichos,GeorgeOrwell,1945,Ficcao
+I 10011 OCodicoDaVinci,DanBrown,2003,Suspense
+I 10012 AsCronicasDeNarnia,CSLewis,1950,Fantasia
+I 10013 IT,StephenKing,1986,Terror
+I 10014 MobyDick,HermanMelville,1851,Aventura
+I 10015 ONomeDaRosa,UmbertoEco,1980,Misterio
+I 10016 OsMiseraveis,VictorHugo,1862,Romance
+I 10017 OApanhadorNoCampoDeCenteio,JD Salinger,1951,Ficcao
+I 10018 OHobbit,JRRRTolkien,1937,Fantasia
+I 10019 Drácula,BramStoker,1897,Terror
+I 10020 CemAnosDeSolidao,GabrielGarciaMarquez,1967,Romance
+I 10021 GuerraEPaz,LeonTolstoi,1869,Historico
+I 10022 Fahrenheit451,RayBradbury,1953,FiccaoCientifica
+I 10023 AdmiravelMundoNovo,AldousHuxley,1932,FiccaoCientifica
+I 10024 OCorcundaDeNotreDame,VictorHugo,1831,Drama
+I 10025 OSolÉParaTodos,HarperLee,1960,Romance
+I 10026 PercyJacksonOLadrãoDeRaios,RickRiordan,2005,Fantasia
+I 10027 AsBrumasDeAvalon,MarionZimmerBradley,1983,Fantasia
+I 10028 EnsaioSobreACegueira,JoseSaramago,1995,Ficcao
+I 10029 OSilencioDosInocentes,ThomasHarris,1988,Suspense
+I 10030 HarryPotterEAPedraFilosofal,JKRowling,1997,Fantasia
+I 10031 AFeiraDasVaidades,TomWolfe,1987,Romance
+I 10032 ORetratoDeDorianGray,OscarWilde,1890,Romance
+I 10033 OAlienista,MachadoDeAssis,1882,Romance
+I 10034 ODiarioDeAnneFrank,AnneFrank,1947,Autobiografia
+I 10035 AMetamorfose,FranzKafka,1915,Ficcao
+I 10036 AIlhaDoTesouro,RobertLouisStevenson,1883,Aventura
+I 10037 OCaçadorDePipas,KhaledHosseini,2003,Romance
+I 10038 OParaisoDasDamas,SomersetMaugham,1944,Romance
+I 10039 MatarAMockingbird,HarperLee,1960,Romance
+I 10040 ONomeDaVoz,ItaloCalvino,1990,Ficcao
+I 10041 OFioDaNavalha,SomersetMaugham,1944,Romance
+I 10042 OAssassinoDoMoleque,AluisioAzevedo,1906,Crime
+I 10043 A CasaDosEspiritos,IsabelAllende,1982,Romance
+I 10044 A GuerraDosTronos,GeorgeRRMartin,1996,Fantasia
+I 10045 AQuedaDeUmu,AlbertCamus,1942,Filosofia
+I 10046 CrimeEPunicao,FiodorDostoievski,1866,Ficcao
+I 10047 OsJogosVorazes,SuzanneCollins,2008,FiccaoCientifica
+I 10048 Vinganca,JeffreyArcher,1989,Drama
+I 10049 OCorpo,StephenKing,1982,Terror
+I 10050 OsBastidoresDoBrasil,HerbertDeSouza,2000,Politica
+I 10051 Dr.JekyllEOMisterHyde,RobertLouisStevenson,1886,Ficcao
+I 10052 OFuturoDasCoisas,GregBear,2003,FiccaoCientifica
+I 10053 OGatoPreto,EdgarAllanPoe,1843,Terror
+I 10054 LaranjaMecanica,AnthonyBurgess,1962,FiccaoCientifica
+I 10055 AIlhaDoTesouro,RobertLouisStevenson,1883,Aventura
+I 10056 AHistoriaDeDoisCidades,CharlesDickens,1859,Historico
+I 10057 OMestreEMargareta,MikhailBulgakov,1967,Fantasia
+I 10058 OSolDaMeiaNoite,StephenKing,2004,Ficcao
+I 10059 OFimDaEternidade,IsaacAsimov,1955,FiccaoCientifica
+I 10060 451GrausFahrenheit,RayBradbury,1953,FiccaoCientifica
+I 10061 ARevolucaoDasCores,JosephBoyer,1993,Romance
+I 10062 UmaCurvaNaEstrada,NicholasSparks,1998,Romance
+I 10063 OMensageiro,MarcusZusak,2005,Ficcao
+I 10064 SonhosDeUmaNoiteDeVerão,WilliamShakespeare,1595,Drama
+I 10065 OMeninoQueDesenhava,LeandroLima,2015,Infantil
+I 10066 NasMontanhasDaLoucura,H.P.Lovecraft,1936,Terror
+I 10067 OOrfanatoDaSrtaPeregrine,RandomRiggs,2011,Fantasia
+I 10068 OPlanetaDasCores,EdgarAllanPoe,1855,Ficcao
+I 10069 CidadeDeVidro,PaulAuster,1985,Romance
+I 10070 OMundoDeSofia,JosteinGaarder,1991,Filosofia
+I 10071 AHistoriaDoEyeball,GeorgeOrwell,1999,Ficcao
+I 10072 OGuardiãoDasSombras,JonathanStroud,2003,Fantasia
+I 10073 GrandesEsperanças,CharlesDickens,1861,Romance
+I 10074 A MorteDeIvanIlitch,LevTolstoi,1886,Drama
+I 10075 UmEstudoEmVermelho,ArthurConanDoyle,1887,Crime
+I 10076 OPequenoPríncipe,AntoineDeSaintExupery,1943,Infantil
+I 10077 OChef,DimitriGusso,2011,Ficcao
+I 10078 AsBodasDeSangue,FedericoGarciaLorca,1933,Drama
+I 10079 DesafioFinal,SidneySheldon,1970,Romance
+I 10080 A HoraDaEstrela,ClariceLispector,1977,Romance
+I 10081 ONoivoDaSogra,AntoineDeSaintExupery,1975,Comedia
+I 10082 OSentidoDaVida,Jean-PaulSartre,1943,Filosofia
+I 10083 UmTigreEmDiaDeChuva,MoacyrScliar,1993,Romance
+I 10084 ARevolucaoDosBichos,GeorgeOrwell,1945,Ficcao
+I 10085 AliceNoPaisDasMaravilhas,LewisCarroll,1865,Fantasia
+I 10086 OCorpoDoDelito,PatriciaCornwell,1994,Crime
+I 10087 OSegredoDoMeuMarido,LianeMoriarty,2013,Romance
+I 10088 OHobbit,JRRRTolkien,1937,Fantasia
+I 10089 OImperioDasSombras,ChuckHogan,2011,Ficcao
+I 10090 ODiarioDeUmBanqueiro,RichardWest,2014,Romance
+I 10091 ATeoriaDoCaos,JamesGleick,1987,Ciencia
+I 10092 ABlasfemia,StephenKing,2007,Drama
+I 10093 OSerPoderoso,J.R.R.Tolkien,2015,Fantasia
+I 10094 OAssassinatoDeRogerAckroyd,AgathaChristie,1926,Crime
+I 10095 AMontanhaMágica,ThomasMann,1924,Romance
+I 10096 OReiLeão,Disney,1994,Infantil
+I 10097 OÚltimoReino,BernardCornwell,1999,Historico
+I 10098 OJogoDaImitação,AndrewHodges,1983,Biografia
+I 10099 ODespertarDaForça,AlanDeanFoster,2015,FiccaoCientifica
+I 10100 AsCoresDoPorDoSol,EdgarAllanPoe,1840,Terror
+I 10101 OCasamento,PatriciaHighsmith,1953,Romance
+I 10102 OFioDaNavalha,SomersetMaugham,1944,Romance
+I 10103 AlquimiaDaMente,MiguelDeCarvalho,2001,Filosofia
+I 10104 OBarcoFantasma,StephenKing,1991,Terror
+I 10105 OMeninoQueImaginavaCores,PaulaPereira,2012,Infantil
+I 10106 OEscaravelhoDeOuro,EdgarAllanPoe,1849,Terror
+I 10107 OSaltoDoSabe,PauloCoelho,2015,Autoajuda
+I 10108 A Tempestade,WilliamShakespeare,1611,Drama
+I 10109 ADoceMisteriosa,AmyBarton,2014,Romance
+I 10110 OSombraDoVento,CarlosRuizZafon,2001,Romance
+I 10111 OsDiariosDeAdriano,MarinaKaufmann,2008,Romance
+I 10112 ARegraDoJogo,JamesMitchum,1999,Romance
+I 10113 OAssassinoDoRei,SamSykes,2011,Fantasia
+I 10114 OImortal,ThomasHarris,1991,Crime
+I 10115 OPortalDasSombras,RenatoRica,2010,Ficcao
+I 10116 OHomemQueMatouDonQuixote,GilbertSutherland,2006,Romance
+I 10117 OGatoDosVidros,MarcosFreitas,2013,Romance
+I 10118 APrisoneiraDasEstrelas,MartinePires,2007,Fantasia
+I 10119 OMestreDoJogo,LeandroCarvalho,2003,Romance
+I 10120 OReiDaNoite,ValeriaPiñon,2011,Fantasia
+I 10121 OReiDoFuturo,JosephDevereux,1999,FiccaoCientifica
+I 10122 OMagoDasSombras,AntonioMorais,2004,Fantasia
+I 10123 UmAmorImpossivel,BarbaraMitchell,1999,Romance
+I 10124 OReiDoJogo,AlfredDeMontpellier,2011,Drama
+I 10125 OReiDaTempestade,JohnHarte,2009,Romance
+I 10126 AsAventurasDeSherlockHolmes,ArthurConanDoyle,1892,Crime
+I 10127 A HistóriaDoAmor,NicholasaSparks,2009,Romance
+I 10128 O VentoNosSambas,LucasLima,2012,Romance
+I 10129 AUltimaFesta,RenatoRibeiro,2007,Drama
+I 10130 OPerfeitoErro,ClaudioZorzi,2008,Romance
+I 10131 O SilêncioDoMar,Vercors,1942,Drama
+I 10132 ORapazDeOCoraçãoDeOuro,JosephKramer,2001,Romance
+I 10133 A ArteDeSerFeliz,MichelTautin,2005,Filosofia
+I 10134 OApanhadorNoCampoDeCenteio,JD Salinger,1951,Ficcao
+I 10135 OPerfume,PatrickSüskind,1985,Romance
+I 10136 OMistérioDaCaverna,MarioGoulart,2010,Crime
+I 10137 OMestreDosSonhos,NicoleBarros,2014,Fantasia
+I 10138 ATrilogiaDoImortal,NicholasAdams,2001,Fantasia
+I 10139 OAmigoImaginario,StephenChbosky,2005,Ficcao
+I 10140 OVingadorDaMorte,RobertoMansur,2010,Aventura
+I 10141 OReiDaForca,JoaquimMiranda,2006,Romance
+I 10142 AProfeciaDaSerpente,MarcusWells,2002,Fantasia
+I 10143 OEnigmaDasSombras,FernandoSantos,2003,Romance
+I 10144 AIlusãoDaMente,AdrianBrenner,2011,Filosofia
+I 10145 OEspiãoDaNoite,MariaGustavo,2007,Romance
+I 10146 OUltimoCavaleiro,DarwinRossi,2012,Fantasia
+I 10147 ODespertarDoRei,MariaLuisaPereira,2008,Romance
+I 10148 OCaminhoDoSilencio,MiguelSanchez,2006,Ficcao
+I 10149 AForcaDaVinganca,ClaudiaSilva,2010,Romance
+I 10150 AHistoriaDeUmaAmiga,MarianaSouza,2014,Romance
+I 10151 OJogoDoDestino,MariaFernandaChaves,2015,Romance
+I 10152 OEspelhoDaMente,GiovanniBorges,2013,Ficcao
+I 10153 OReiDasSombras,VictorAlmeida,2009,Fantasia
+I 10154 AsSombrasDoMedo,MarcosAlves,2012,Terror
+I 10155 ANoiteDaDespedida,ClaudiaFarias,2014,Romance
+I 10156 OMestreDaTorre,ValterPereira,2008,Fantasia
+I 10157 OAcordoDeSombra,ClaraJardim,2009,Romance
+I 10158 OPretoNoBranco,NicolauHenrique,2013,Romance
+I 10159 OReiDaTerraDeFogo,ElianaCoutinho,2007,Fantasia
+I 10160 AMagiaDoCaos,NancyCunningham,2011,Ficcao
+I 10161 OMestreDoVento,PauloVargas,2012,Fantasia
+I 10162 ODespertarDeLuz,LucasCavalcante,2005,Fantasia
+I 10163 ARevoltaDosInocentes,CarlosAlves,2006,Ficcao
+I 10164 OReiDasTrevas,SamuelHaddad,2010,Fantasia
+I 10165 OJardimDasSombras,PauloSousa,2008,Romance
+I 10166 OCorpoDeUmHomem,JoséBarros,2014,Drama
+I 10167 ORetornoDoCavaleiro,FernandoJunqueira,2009,Fantasia
+I 10168 OPoderDoRei,MarcoSilva,2011,Fantasia
+I 10169 A ÚltimaIlusão,ElisaRibeiro,2012,Romance
+I 10170 OHomemQueImaginavaOInimigo,NathaliaLopes,2013,Romance
+I 10171 O OlhoDoVento,MicheleBorges,2011,Fantasia
+I 10172 ADoceVingança,SandraPereira,2008,Romance
+I 10173 OTemploDasSombras,RenatoBecker,2014,Fantasia
+I 10174 O GuardiãoDaLuz,GustavoPereira,2013,Fantasia
+I 10175 OReiDaTempestade,IsabelaPinto,2012,Fantasia
+I 10176 OOvoDeDragao,AndréSantos,2014,Fantasia
+I 10177 OSonhoDoVento,MariaTavares,2007,Ficcao
+I 10178 OPríncipeDoAbismo,JulianoAraujo,2009,Fantasia
+I 10179 OContoDoVento,RobertaBrito,2011,Fantasia
+I 10180 OVingadorDaSombra,MiguelDeCastro,2013,Fantasia
+I 10181 ASagaDosReinos,GiovannaSilveira,2010,Fantasia
+I 10182 OMestreDoPoder,LuizOliveira,2007,Ficcao
+I 10183 OEspectroDoMedo,PaulaTavares,2014,Terror
+I 10184 OReinoDasSombras,RicardoCosta,2010,Fantasia
+I 10185 OPríncipeDasSombras,AdrianaSilva,2013,Fantasia
+I 10186 AFeiraDosCorações,RobertoAlves,2009,Romance
+I 10187 A ÚltimaChance,CarlaOliveira,2014,Romance
+I 10188 OMistérioDaIlha,JoséAmorim,2008,Fantasia
+I 10189 ARevoluçãoDasSombras,LeonardoFerreira,2010,Fantasia
+I 10190 OJogoDaVingança,MarcosMartins,2011,Romance
+I 10191 A JornadaDasAlmas,IsabelLima,2012,Fantasia
+I 10192 OMestreDoCaos,GustavoLima,2014,Fantasia
+I 10193 OEnigmaDoReino,CelsoBarbosa,2007,Ficcao
+I 10194 OVooDoDragão,MarcioSilva,2010,Fantasia
+I 10195 AChaveDoRei,CarolinaReis,2009,Fantasia
+I 10196 OMundoDasSombras,FernandaPinto,2011,Fantasia
+I 10197 OReinoDasAlmas,LucianaLopes,2013,Fantasia
+I 10198 OFeitiçoDoVento,LuisFerreira,2008,Fantasia
+I 10199 OReiDasSombras,ThiagoSilva,2011,Fantasia
+I 10200 A ÚltimaMadrugada,VanessaRibeiro,2012,Romance
+I 10201 OFeitiçoDoRei,CláudiaFreitas,2012,Fantasia
+I 10202 AQuedaDoReino,LucasMartins,2011,Fantasia
+I 10203 OMestreDasSombras,ClaraBrito,2010,Romance
+I 10204 OReinoDoVento,SusanaAlmeida,2007,Fantasia
+I 10205 AMagiaDoCoração,LucasCosta,2008,Romance
+I 10206 OReiDoMistério,EdsonVieira,2013,Fantasia
+I 10207 OEspelhoDaAlma,FernandaLima,2010,Ficcao
+I 10208 ATrilhaDaVingança,JoãoPedroSilva,2009,Romance
+I 10209 O ÚltimoReinado,MariaHenrique,2011,Fantasia
+I 10210 OGuardiãoDaAlma,JulianaMendes,2012,Fantasia
+I 10211 AÚltimaProfecia,SergioDiniz,2013,Romance
+I 10212 OMestreDaSombra,RenataOliveira,2011,Fantasia
+I 10213 OVooDasSombras,MarinaSilveira,2007,Fantasia
+I 10214 AForçaDoMedo,HenriqueAlmeida,2012,Terror
+I 10215 ATrilogiaDasSombras,PaulaGomes,2009,Fantasia
+I 10216 AVisãoDoRei,AlessandraRodrigues,2008,Romance
+I 10217 OReiDaEscuridão,GustavoSouza,2010,Fantasia
+I 10218 OSorvetesDaVingança,LizandraRibeiro,2009,Romance
+I 10219 OCorpoDaMentira,JoanaSilva,2013,Romance
+I 10220 OReinoDasLágrimas,RobertoSantos,2007,Fantasia
+I 10221 OPríncipeDoReino,JoséCarlosSilva,2012,Fantasia
+I 10222 OReiDasSombras,CláudiaPereira,2010,Fantasia
+I 10223 OLivroDasSombras,LucianoBorges,2011,Fantasia
+I 10224 AVingançaDoRei,PatríciaLima,2012,Fantasia
+I 10225 ODespertarDaVingança,JoãoLucas,2009,Romance
+I 10226 OReinoDasSombras,LigiaMelo,2011,Fantasia
+I 10227 AHerançaDasSombras,SamanthaCosta,2008,Fantasia
+I 10228 OReiDaVingança,ValériaAlves,2012,Fantasia
+I 10229 OGuardiãoDoVento,SandraMendes,2010,Fantasia
+I 10230 OReinoDoMedo,RicardoMonteiro,2013,Fantasia
+I 10231 APromessaDoRei,LeonardoVieira,2007,Fantasia
+I 10232 ARevoluçãoDasSombras,JessicaPereira,2012,Fantasia
+I 10233 OEspelhoDoRei,FábioCarvalho,2009,Fantasia
+I 10234 OReinoDaMorte,AnaClaraSantos,2013,Fantasia
+I 10235 AChaveDasSombras,LucianaLima,2008,Fantasia
+I 10236 OPríncipeDasSombras,MarinaGonçalves,2012,Fantasia
+I 10237 ORetornoDoRei,GustavoPereira,2011,Fantasia
+I 10238 AConquistaDoReino,RobertaFernandes,2007,Fantasia
+I 10239 OReiDasAlmas,LetíciaRocha,2010,Fantasia
+I 10240 OReinoDasSombras,PaulaFernandes,2009,Fantasia
+I 10241 ATraiçãoDoRei,MárciaLima,2008,Fantasia
+I 10242 OGuardiãoDoReino,RobertoPinto,2013,Fantasia
+I 10243 ODespertarDoRei,RitaCavalcante,2011,Fantasia
+I 10244 OMestreDoReino,VanessaAraujo,2007,Fantasia
+I 10245 A MagiaDoVento,SandraLopes,2010,Fantasia
+I 10246 OReinoDasSombras,LiviaBarros,2013,Fantasia
+I 10247 OCorpoDoRei,RicardoCosta,2009,Fantasia
+I 10248 OSombrasDaAlma,CláudiaMartins,2008,Fantasia
+I 10249 AVingançaDoVento,CarlaMendonça,2012,Romance
+I 10250 OFeitiçoDasSombras,MárioAntônio,2010,Fantasia
+I 10251 ATempestadeDeSombras,JulianaMoura,2007,Fantasia
+I 10252 OReinoDasSombras,CarolinaSilva,2013,Fantasia
+I 10253 OReinoDaMente,PauloAzevedo,2008,Fantasia
+I 10254 ORetornoDaLuz,LucianaSantos,2009,Fantasia
+I 10255 AForçaDaVingança,ThiagoMendes,2010,Romance
+I 10256 OVentoDoReino,RenatoAlmeida,2012,Fantasia
+I 10257 OReinoDosVentos,ThiagoFerreira,2013,Fantasia
+I 10258 AIlusãoDoRei,MariaJoséLopes,2007,Fantasia
+I 10259 OFeitiçoDasSombras,AntônioBarros,2011,Fantasia
+I 10260 ARevoluçãoDasSombras,MarceloGomes,2008,Fantasia
+I 10261 AEstrelaDasSombras,ReginaSantos,2007,Fantasia
+I 10262 OReinoDosAnjos,AndréLima,2012,Fantasia
+I 10263 OReiDoMedo,GustavoLima,2010,Fantasia
+I 10264 OCorpoDoVento,LúciaOliveira,2013,Romance
+I 10265 OUltimoGuardião,PatriciaGonçalves,2009,Fantasia
+I 10266 OJogoDasSombras,MarcosSilva,2008,Fantasia
+I 10267 ODespertarDoRei,PaulaMarques,2011,Fantasia
+I 10268 OPríncipeDoReino,MarcelaPereira,2012,Fantasia
+I 10269 OReiDasSombras,AlineRibeiro,2007,Fantasia
+I 10270 OSilêncioDoReino,FelipeLopes,2010,Fantasia
+I 10271 OReinoDasAlmas,JessicaOliveira,2009,Fantasia
+I 10272 OFeitiçoDoReino,MarianaSantos,2013,Fantasia
+I 10273 OGuardiãoDasSombras,JulianoVieira,2012,Fantasia
+I 10274 OReinoDasSombras,LuisGonçalves,2007,Fantasia
+I 10275 AÚltimaTempestade,AnaCarolinaLima,2011,Fantasia
+I 10276 AIlusãoDaLuz,FabianaLopes,2008,Fantasia
+I 10277 OReinoDaEscuridão,LigiaPereira,2013,Fantasia
+I 10278 OPríncipeDasSombras,AdrianaBarros,2009,Fantasia
+I 10279 OReiDoReino,FernandaPinto,2012,Fantasia
+I 10280 ATrilhaDasSombras,JulianeAlves,2013,Fantasia
+I 10281 OReinoDasTrevas,RobertoSantos,2010,Fantasia
+I 10282 AForçaDoMedo,MarcosSilva,2008,Terror
+I 10283 OReiDasSombras,KarinaLima,2007,Fantasia
+I 10284 OJogoDasSombras,LuciaPereira,2012,Fantasia
+I 10285 AÚltimaLuz,ThiagoMendes,2011,Fantasia
+I 10286 OReinoDasSombras,TiagoOliveira,2009,Fantasia
+I 10287 OReiDasSombras,FabioCosta,2013,Fantasia
+I 10288 OReinoDasSombras,RaulSantos,2010,Fantasia
+I 10289 OFeitiçoDoReino,LeandroAlves,2007,Fantasia
+I 10290 OReinoDoVento,JulianoPereira,2012,Fantasia
+I 10291 OGuardiãoDoReino,CarlaOliveira,2013,Fantasia
+I 10292 AÚltimaJornada,MarceloSilva,2010,Fantasia
+I 10293 ARevoluçãoDasSombras,MarcelaDantas,2008,Fantasia
+I 10294 OFeitiçoDoReino,AnaBrito,2007,Fantasia
+I 10295 OReinoDasSombras,RobertaPereira,2012,Fantasia
+I 10296 OReiDaIlusão,SandraSilva,2011,Fantasia
+I 10297 OReinoDoMedo,MarceloAlves,2013,Fantasia
+I 10298 OGuardiãoDasSombras,HelenaLima,2009,Fantasia
+I 10299 OReinoDasSombras,LeonardoCosta,2010,Fantasia
+I 10300 OReinoDoMedo,DaniloGonçalves,2012,Fantasia
+I 10301 OReiDoVento,CarlaMendes,2008,Fantasia
+I 10302 OReinoDasSombras,LúciaBarros,2012,Fantasia
+I 10303 OJogoDoRei,AnaCosta,2007,Fantasia
+I 10304 OCoraçãoDasSombras,MiguelSilva,2011,Fantasia
+I 10305 AIlusãoDoReino,PatríciaLopes,2009,Fantasia
+I 10306 OPríncipeDasSombras,JulianaPereira,2007,Fantasia
+I 10307 OReinoDasAlmas,MarcosOliveira,2010,Fantasia
+I 10308 OReiDasSombras,SôniaRibeiro,2009,Fantasia
+I 10309 OReinoDaIlusão,LeonardoFernandes,2013,Fantasia
+I 10310 OVentoDasSombras,CarolinaOliveira,2008,Fantasia
+I 10311 OEspelhoDasSombras,FernandoAlves,2010,Fantasia
+I 10312 AForçaDoReino,SandraSouza,2009,Fantasia
+I 10313 OReinoDasSombras,JulianaAlves,2011,Fantasia
+I 10314 OGuardiãoDoReino,LuisBorges,2008,Fantasia
+I 10315 OReiDasTrevas,RitaBarbosa,2012,Fantasia
+I 10316 OReinoDasSombras,LeandroCosta,2009,Fantasia
+I 10317 OCorpoDasSombras,PatriciaSantos,2007,Fantasia
+I 10318 OReiDoVento,AdrianaCarvalho,2010,Fantasia
+I 10319 OGuardiãoDoReino,LucianaMendes,2012,Fantasia
+I 10320 OReinoDasSombras,CarolinaGomes,2008,Fantasia
+I 10321 AIlusãoDaVingança,JoséSantos,2011,Fantasia
+I 10322 OReiDasSombras,LilianeCarvalho,2007,Fantasia
+I 10323 ODespertarDoRei,LigiaCosta,2009,Fantasia
+I 10324 OReiDasSombras,MarceloLima,2010,Fantasia
+I 10325 OReinoDaLuz,MarcosPereira,2012,Fantasia
+I 10326 OReiDasSombras,MarianaSilveira,2011,Fantasia
+I 10327 OReiDasSombras,AnaCosta,2008,Fantasia
+I 10328 OPríncipeDoVento,FelipeSilva,2009,Fantasia
+I 10329 OReinoDasSombras,BrunaAlves,2007,Fantasia
+I 10330 AChaveDoReino,MarianaGonçalves,2011,Fantasia
+I 10331 OReinoDasSombras,GustavoCosta,2012,Fantasia
+I 10332 OVentoDoReino,SandraOliveira,2009,Fantasia
+I 10333 OReinoDasAlmas,DaniloBarbosa,2007,Fantasia
+I 10334 OReinoDoRei,JoanaSilveira,2008,Fantasia
+I 10335 ATrilhaDasSombras,LeonardoLima,2011,Fantasia
+I 10336 OReinoDoVento,LaraSantos,2012,Fantasia
+I 10337 OReiDasSombras,MarcelaCarvalho,2007,Fantasia
+I 10338 OReinoDasSombras,CláudiaMartins,2011,Fantasia
+I 10339 OReiDasSombras,MarceloAlves,2009,Fantasia
+I 10340 AForçaDasSombras,LucasVieira,2010,Fantasia
+I 10341 OReinoDasSombras,ClaraCosta,2011,Fantasia
+I 10342 OReiDasSombras,JulianaSantos,2007,Fantasia
+I 10343 ARevoluçãoDasSombras,MariaSilva,2008,Fantasia
+I 10344 OReinoDasSombras,RenataPereira,2009,Fantasia
+I 10345 OReiDasSombras,AndréAlmeida,2007,Fantasia
+I 10346 OPríncipeDasSombras,FernandaReis,2010,Fantasia
+I 10347 OReiDasSombras,MaríliaMoura,2011,Fantasia
+I 10348 OReinoDasSombras,BrunaLopes,2010,Fantasia
+I 10349 AProfeciaDoRei,MartaGonçalves,2008,Fantasia
+I 10350 OReinoDasSombras,MárcioOliveira,2007,Fantasia
+I 10351 OReinoDasAlmas,RicardoSilva,2010,Fantasia
+I 10352 OReinoDaMorte,PatríciaCosta,2012,Fantasia
+I 10353 OReinoDoMedo,RobertaGomes,2008,Fantasia
+I 10354 OReinoDasSombras,AlineCosta,2009,Fantasia
+I 10355 OReinoDasSombras,SérgioBarbosa,2011,Fantasia
+I 10356 OReiDasSombras,MartaSilva,2007,Fantasia
+I 10357 OReinoDasSombras,MarcelaLima,2009,Fantasia
+I 10358 OReiDoVento,AndréSilva,2012,Fantasia
+I 10359 OReiDasSombras,RaquelCosta,2010,Fantasia
+I 10360 OReinoDaVingança,SimoneGonçalves,2011,Fantasia
+I 10361 OReiDasSombras,TiagoPereira,2008,Fantasia
+I 10362 OReiDoMedo,ThaisLima,2007,Fantasia
+I 10363 OReinoDasSombras,GilbertoAlves,2009,Fantasia
+I 10364 OReiDasSombras,TiagoSilveira,2011,Fantasia
+I 10365 OReinoDasSombras,FernandoGomes,2012,Fantasia
+I 10366 OReiDasSombras,MárciaReis,2008,Fantasia
+I 10367 OReinoDasSombras,RicardoSilveira,2010,Fantasia
+I 10368 OReiDoMedo,JessicaOliveira,2012,Fantasia
+I 10369 OReiDasSombras,MaríliaGomes,2007,Fantasia
+I 10370 OReinoDasSombras,AndréReis,2011,Fantasia
+I 10371 OReiDasSombras,RobertaAlmeida,2008,Fantasia
+I 10372 OReinoDasSombras,FláviaMartins,2012,Fantasia
+I 10373 OReinoDasSombras,CláudiaAlves,2009,Fantasia
+I 10374 OReinoDoVento,RenatoOliveira,2007,Fantasia
+I 10375 OReiDasSombras,AlinePereira,2012,Fantasia
+I 10376 OReinoDoVento,FranciscoSouza,2010,Fantasia
+I 10377 OReinoDasSombras,VerônicaSilveira,2012,Fantasia
+I 10378 OReinoDasSombras,PatriciaGomes,2011,Fantasia
+I 10379 OReinoDasSombras,AmandaCosta,2009,Fantasia
+I 10380 OReinoDasSombras,BrunoPereira,2007,Fantasia
+I 10381 OReinoDasSombras,RicardoAlmeida,2011,Fantasia
+I 10382 OReinoDasSombras,LucianeBarbosa,2008,Fantasia
+I 10383 OReinoDasSombras,PauloAlves,2009,Fantasia
+I 10384 OReinoDasSombras,GabrielSouza,2011,Fantasia
+I 10385 OReinoDasSombras,ThiagoCosta,2012,Fantasia
+I 10386 OReinoDasSombras,LetíciaGomes,2007,Fantasia
+I 10387 OReinoDasSombras,CristianeLima,2008,Fantasia
+I 10388 OReinoDasSombras,PauloVieira,2009,Fantasia
+I 10389 OReinoDasSombras,RobertaPinto,2008,Fantasia
+I 10390 OReinoDasSombras,ThiagoLopes,2011,Fantasia
+I 10391 OReinoDasSombras,PatríciaAlmeida,2007,Fantasia
+I 10392 OReinoDasSombras,VerônicaOliveira,2009,Fantasia
+I 10393 OReinoDasSombras,AmandaReis,2011,Fantasia
+I 10394 OReinoDasSombras,SérgioAlmeida,2010,Fantasia
+I 10395 OReinoDasSombras,VerônicaSilva,2012,Fantasia
+I 10396 OReinoDasSombras,FranciscoGomes,2010,Fantasia
+I 10397 OReinoDasSombras,PatriciaMendes,2009,Fantasia
+I 10398 OReinoDasSombras,AnaPereira,2012,Fantasia
+I 10399 OReinoDasSombras,BrunaCosta,2011,Fantasia
+I 10400 OReinoDasSombras,LucasBarbosa,2008,Fantasia
+I 10401 O Código Da Vinci,Dan Brown,2003,Suspense
+I 10402 Harry Potter e a Pedra Filosofal, J.K. Rowling,1997,Fantasia
+I 10403 O Senhor dos Anéis: A Sociedade do Anel,J.R.R. Tolkien,1954,Fantasia
+I 10404 O Hobbit, J.R.R. Tolkien,1937,Fantasia
+I 10405 A Culpa é das Estrelas, John Green,2012,Romance
+I 10406 O Pequeno Príncipe, Antoine de Saint-Exupéry,1943,Infantil
+I 10407 1984, George Orwell,1949,Ficção Científica
+I 10408 Orgulho e Preconceito, Jane Austen,1813,Romance
+I 10409 Dom Casmurro, Machado de Assis,1899,Romance
+I 10410 Moby Dick, Herman Melville,1851,Aventura
+I 10411 O Grande Gatsby, F. Scott Fitzgerald,1925,Romance
+I 10412 As Crônicas de Nárnia: O Leão, a Feiticeira e o Guarda-Roupa, C.S. Lewis,1950,Fantasia
+I 10413 A Revolução dos Bichos, George Orwell,1945,Ficção
+I 10414 Cem Anos de Solidão, Gabriel García Márquez,1967,Romance
+I 10415 Guerra e Paz, Leo Tolstoy,1869,Histórico
+I 10416 O Apanhador no Campo de Centeio, J.D. Salinger,1951,Ficção
+I 10417 O Silêncio dos Inocentes, Thomas Harris,1988,Suspense
+I 10418 O Código da Vinci, Dan Brown,2003,Suspense
+I 10419 O Nome da Rosa, Umberto Eco,1980,Mistério
+I 10420 Ensaio sobre a Cegueira, José Saramago,1995,Ficção
+I 10421 O Sol é Para Todos, Harper Lee,1960,Romance
+I 10422 Drácula, Bram Stoker,1897,Terror
+I 10423 A Menina que Roubava Livros, Markus Zusak,2005,Romance
+I 10424 A Arte da Felicidade, Dalai Lama,1998,Autoajuda
+I 10425 O Alquimista, Paulo Coelho,1988,Ficção
+I 10426 O Conde de Monte Cristo, Alexandre Dumas,1844,Aventura
+I 10427 50 Tons de Cinza, E.L. James,2009,Romance
+I 10428 O Diário de Anne Frank, Anne Frank,1947,Autobiografia
+I 10429 O Lado Bom da Vida, Matthew Quick,2008,Romance
+I 10430 A Cabana, William P. Young,2007,Religioso
+I 10431 A Guerra dos Tronos, George R.R. Martin,1996,Fantasia
+I 10432 O Príncipe, Nicolau Maquiavel,1513,Filosofia
+I 10433 O Morro dos Ventos Uivantes, Emily Brontë,1847,Romance
+I 10434 O Senhor das Sombras, Cassandra Clare,2017,Fantasia
+I 10435 O Lobo de Wall Street, Jordan Belfort,2007,Autobiografia
+I 10436 A Cor Púrpura, Alice Walker,1982,Romance
+I 10437 O Andar do Bêbado, Leonard Mlodinow,2008,Não Ficção
+I 10438 A Sombra do Vento, Carlos Ruiz Zafón,2001,Romance
+I 10439 O Último Catão, Richelle Mead,2007,Fantasia
+I 10440 O Pássaro, Manuel Carneiro,2017,Romance
+I 10441 A Psicologia das Cores, Eva Heller,2009,Psicologia
+I 10442 O Menino do Pijama Listrado, John Boyne,2006,Romance
+I 10443 A Verdade sobre o Caso Harry Quebert, Joël Dicker,2012,Mistério
+I 10444 O Cemitério de Praga, Umberto Eco,2010,Mistério
+I 10445 O Último Mestre do Ar, Michael Dante DiMartino,2007,Fantasia
+I 10446 O Evangelho Segundo Jesus Cristo, José Saramago,1991,Ficção
+I 10447 O Vendedor de Sonhos, Augusto Cury,2008,Autoajuda
+I 10448 A Vida Secreta de Walter Mitty, James Thurber,1939,Romance
+I 10449 A Guerra dos Tronos, George R.R. Martin,1996,Fantasia
+I 10450 A Menina que Roubava Livros, Markus Zusak,2005,Romance
+I 10451 O Oceano no Fim do Caminho, Neil Gaiman,2013,Fantasia
+I 10452 O Hobbit, J.R.R. Tolkien,1937,Fantasia
+I 10453 O Poder do Agora, Eckhart Tolle,1997,Espiritualidade
+I 10454 O Guia do Mochileiro das Galáxias, Douglas Adams,1979,Ficção Científica
+I 10455 O Ciclo da Herança, Christopher Paolini,2002,Fantasia
+I 10456 A Trilogia Millenium, Stieg Larsson,2005,Crime
+I 10457 O Mago, Raymond E. Feist,1982,Fantasia
+I 10458 A Trilogia do Império, Raymond E. Feist,2003,Fantasia
+I 10459 O Nome do Vento, Patrick Rothfuss,2007,Fantasia
+I 10460 O Cavaleiro dos Sete Reinos, George R.R. Martin,2015,Fantasia
+I 10461 A Rainha Vermelha, Victoria Aveyard,2015,Fantasia
+I 10462 O Corredor da Morte, Stephen King,2008,Fantasia
+I 10463 O Jogo do Anjo, Carlos Ruiz Zafón,2008,Mistério
+I 10464 As Crônicas de Gelo e Fogo, George R.R. Martin,1996,Fantasia
+I 10465 O Senhor dos Anéis: As Duas Torres, J.R.R. Tolkien,1954,Fantasia
+I 10466 O Senhor dos Anéis: O Retorno do Rei, J.R.R. Tolkien,1955,Fantasia
+I 10467 O Cemitério, Stephen King,1983,Terror
+I 10468 A Lição Final, Randy Pausch,2008,Autoajuda
+I 10469 O Príncipe dos Condenados, Anne Rice,2011,Fantasia
+I 10470 A Menina que Roubava Livros, Markus Zusak,2005,Romance
+I 10471 O Padrinho, Mario Puzo,1969,Crime
+I 10472 O Mestre e Margarida, Mikhail Bulgakov,1967,Fantasia
+I 10473 O Vingador, David Baldacci,2008,Thriller
+I 10474 O Médico e o Monstro, Robert Louis Stevenson,1886,Clássico
+I 10475 A Culpa é das Estrelas, John Green,2012,Romance
+I 10476 O Poder do Hábito, Charles Duhigg,2012,Psicologia
+I 10477 O Quarto, Emma Donoghue,2010,Romance
+I 10478 O Fim da Eternidade, Isaac Asimov,1955,Ficção Científica
+I 10479 O Físico, Noah Gordon,1986,Romance Histórico
+I 10480 A Casa dos Espíritos, Isabel Allende,1982,Romance
+I 10481 O Homem que Calculava, Malba Tahan,1938,Ficção Matemática
+I 10482 A Lenda do Cavaleiro Sem Cabeça, Washington Irving,1820,Terror
+I 10483 O Livro dos Espelhos, E.O. Chirovici,2016,Thriller
+I 10484 A Paciência do Mundo, Ana Miranda,2010,Romance
+I 10485 O Retrato de Dorian Gray, Oscar Wilde,1890,Romance
+I 10486 A História Sem Fim, Michael Ende,1979,Fantasia
+I 10487 O Castelo, Franz Kafka,1926,Romance
+I 10488 A Mente Organizada, Daniel J. Levitin,2014,Psicologia
+I 10489 O Hóspede do Mundo, Adélia Prado,2009,Romance
+I 10490 A Cidade do Sol, Khaled Hosseini,2007,Drama
+I 10491 O Caso dos Dez Negrinhos, Agatha Christie,1939,Crime
+I 10492 O Estrangeiro, Albert Camus,1942,Filosofia
+I 10493 A Maldição do Tigre, Colleen Houck,2011,Fantasia
+I 10494 O Último Desejo, Andrzej Sapkowski,1993,Fantasia
+I 10495 O Enigma do Quatro, Ian Caldwell,2004,Mistério
+I 10496 A Ilha, Adam Gnade,2012,Romance
+I 10497 O Amor nos Tempos de Cólera, Gabriel García Márquez,1985,Romance
+I 10498 A Guerra do Velho, John Scalzi,2005,Ficção Científica
+I 10499 O Mundo de Sofia, Jostein Gaarder,1991,Filosofia
+I 10500 O Corredor da Morte, Stephen King,2000,Terror
+F
