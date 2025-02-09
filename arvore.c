@@ -1,156 +1,153 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "arvore.h"
 
-// funcao que retorna a altura de um nodo qualquer
 int altura(NodoArvore* nodo) {
-    // se o nodo for nulo, retorna 0, se n, retorna a altura
-    if (nodo != NULL) return nodo->altura;
-    else return 0;
+    return (nodo != NULL) ? nodo->altura : 0;
 }
 
-// funcao que calcula o fb de um no' qualquer
 int fatorBalanceamento(NodoArvore* nodo) {
-    if (nodo == NULL) {
-        return 0;
-    } else {
-        int alturaEsquerda = altura(nodo->esquerda);
-        int alturaDireita = altura(nodo->direita);
-        return alturaEsquerda - alturaDireita;
-    }
+    if (nodo == NULL) return 0;
+    return altura(nodo->esquerda) - altura(nodo->direita);
 }
 
-// rotacao simples pra direita
 NodoArvore* rotacaoDireita(NodoArvore* y) {
-
-    //        y                 x
-    //       / \               / \
-    //      x   T2     =>     T1  y
-    //     / \                   / \
-    //   T1   z                 z  T2
-
-    //atribui variaveis auxiliares
+    if (y == NULL || y->esquerda == NULL) return y;
     NodoArvore* x = y->esquerda;
     NodoArvore* z = x->direita;
 
-    //faz a rotacao em si
     x->direita = y;
     y->esquerda = z;
 
-    //ajusta as alturas
-    y->altura = 1 + (altura(y->esquerda) > altura(y->direita) ? altura(y->esquerda) : altura(y->direita));
-    x->altura = 1 + (altura(x->esquerda) > altura(x->direita) ? altura(x->esquerda) : altura(x->direita));
+    y->altura = 1 + ((altura(y->esquerda) > altura(y->direita)) ? altura(y->esquerda) : altura(y->direita));
+    x->altura = 1 + ((altura(x->esquerda) > altura(x->direita)) ? altura(x->esquerda) : altura(x->direita));
 
-    //retorna a nova raiz
     return x;
 }
+NodoArvore* removerLivroArvore(NodoArvore *raiz, int id) {
+    if (raiz == NULL) {
+        printf("Livro com ID %d não encontrado.\n", id);
+        return NULL;
+    }
 
-// rotacao simples pra esquerda
+    if (id < raiz->livro->id) {
+        raiz->esquerda = removerLivroArvore(raiz->esquerda, id);
+    } else if (id > raiz->livro->id) {
+        raiz->direita = removerLivroArvore(raiz->direita, id);
+    } else {
+        // Caso o livro tenha sido encontrado
+        printf("Livro com ID %d removido com sucesso.\n", id);
+
+        if (raiz->esquerda == NULL) {
+            NodoArvore *temp = raiz->direita;
+            free(raiz);
+            return temp;
+        } else if (raiz->direita == NULL) {
+            NodoArvore *temp = raiz->esquerda;
+            free(raiz);
+            return temp;
+        }
+
+        // Encontrar o sucessor in-order (menor valor da subárvore direita)
+        NodoArvore *temp = raiz->direita;
+        while (temp && temp->esquerda != NULL) {
+            temp = temp->esquerda;
+        }
+
+        raiz->livro = temp->livro;
+        raiz->direita = removerLivroArvore(raiz->direita, temp->livro->id);
+    }
+
+    return raiz;
+}
+
 NodoArvore* rotacaoEsquerda(NodoArvore* x) {
-
-    //     x                y
-    //    / \              / \
-    //  T1   y     =>     x   T2
-    //      / \          / \
-    //     z   T2      T1   z
-
-    //atribui variaveis auxiliares
+    if (x == NULL || x->direita == NULL) return x;
     NodoArvore* y = x->direita;
     NodoArvore* z = y->esquerda;
 
-    //faz a rotacao em si
     y->esquerda = x;
     x->direita = z;
 
-    //ajusta as alturas
-    x->altura = 1 + (altura(x->esquerda) > altura(x->direita) ? altura(x->esquerda) : altura(x->direita));
-    y->altura = 1 + (altura(y->esquerda) > altura(y->direita) ? altura(y->esquerda) : altura(y->direita));
+    x->altura = 1 + ((altura(x->esquerda) > altura(x->direita)) ? altura(x->esquerda) : altura(x->direita));
+    y->altura = 1 + ((altura(y->esquerda) > altura(y->direita)) ? altura(y->esquerda) : altura(y->direita));
 
-    //retorna a nova raiz
     return y;
 }
 
-
-// equilibra a arvore depois de inserir
 NodoArvore* balancear(NodoArvore* nodo) {
-    // calcula o fb
+    if (nodo == NULL) return NULL;
     int fb = fatorBalanceamento(nodo);
 
-    //===================================================
-    // FB positivo -> rotacao a direita
     if (fb > 1) {
-        if (fatorBalanceamento(nodo->esquerda) >= 0){
-            // rotacao simples pra direita
-            return rotacaoDireita(nodo);
-        } else {
-            //rotacao esquerda dps direita
+        if (fatorBalanceamento(nodo->esquerda) < 0)
             nodo->esquerda = rotacaoEsquerda(nodo->esquerda);
-            return rotacaoDireita(nodo);
-        }
+        return rotacaoDireita(nodo);
     }
 
-    //===================================================
-    // FB negativo -> rotacao a esquerda
     if (fb < -1) {
-        if (fatorBalanceamento(nodo->direita) >= 0){
-            //rotacao simples pra esquerda
-            return rotacaoEsquerda(nodo);
-        } else {
-            //rotacao dupla - esquerda direita
+        if (fatorBalanceamento(nodo->direita) > 0)
             nodo->direita = rotacaoDireita(nodo->direita);
-            return rotacaoEsquerda(nodo);
-        }
+        return rotacaoEsquerda(nodo);
     }
 
-    //retorna a raiz
     return nodo;
 }
 
-// insere um livro na arvore
 NodoArvore* inserirLivroArvore(NodoArvore* raiz, Livro* livro) {
     if (raiz == NULL) {
-        // se a arvore for vazia, coloca o livro no primeiro lugar
         NodoArvore* novoNodo = (NodoArvore*)malloc(sizeof(NodoArvore));
-        novoNodo->livro = livro;
-        // coloca os dois filhos como nulos
+        if (novoNodo == NULL) {
+            printf("Erro ao alocar memória para NodoArvore.\n");
+            exit(1);
+        }
+        novoNodo->livro = (Livro*)malloc(sizeof(Livro));
+        if (novoNodo->livro == NULL) {
+            printf("Erro ao alocar memória para Livro.\n");
+            exit(1);
+        }
+        *(novoNodo->livro) = *livro;
         novoNodo->esquerda = NULL;
         novoNodo->direita = NULL;
-        //coloca a altura na arvore
         novoNodo->altura = 1;
-        //retorna a nova raiz
         return novoNodo;
     }
 
-    //se n e' vazia, descobre se tenho que ir pra esquerda ou pra direita
-    if (livro->id < raiz->livro->id) {
+    if (strcmp(livro->titulo, raiz->livro->titulo) < 0) {
         raiz->esquerda = inserirLivroArvore(raiz->esquerda, livro);
-    } else if (livro->id > raiz->livro->id) {
+    } else if (strcmp(livro->titulo, raiz->livro->titulo) > 0) {
         raiz->direita = inserirLivroArvore(raiz->direita, livro);
     } else {
-        //se ja tem um nodo com esse valor, retorna ele
         return raiz;
     }
 
-    //depois de inserir, ajusa a altura de cada nodo, e retorna a raaiz
-    raiz->altura = 1 + (altura(raiz->esquerda) > altura(raiz->direita) ? altura(raiz->esquerda) : altura(raiz->direita));
+    raiz->altura = 1 + ((altura(raiz->esquerda) > altura(raiz->direita)) ? altura(raiz->esquerda) : altura(raiz->direita));
     return balancear(raiz);
 }
 
-// funcao recursiva pra imprimir a arvore, usa in ordem
+NodoArvore* buscarLivroPorTitulo(NodoArvore* raiz, char* titulo) {
+    if (raiz == NULL || raiz->livro == NULL) return NULL;
+
+    int cmp = strcmp(titulo, raiz->livro->titulo);
+    if (cmp == 0) return raiz;
+    else if (cmp < 0) return buscarLivroPorTitulo(raiz->esquerda, titulo);
+    else return buscarLivroPorTitulo(raiz->direita, titulo);
+}
+
 void imprimirArvoreEmOrdem(NodoArvore* raiz) {
     if (raiz != NULL) {
         imprimirArvoreEmOrdem(raiz->esquerda);
-        printf("ID: %d, Titulo: %s, Autor: %s, Ano: %d, Genero: %s\n", raiz->livro->id, raiz->livro->titulo, raiz->livro->autor, raiz->livro->anoPubl, raiz->livro->genero);
+        //printf("ID: %d, Titulo: %s, Autor: %s, Ano: %d, Genero: %s\n", raiz->livro->id, raiz->livro->titulo, raiz->livro->autor, raiz->livro->anoPubl, raiz->livro->genero);
         imprimirArvoreEmOrdem(raiz->direita);
     }
 }
 
-// funcao recursiva pra liberara a memoria
 NodoArvore* liberarArvore(NodoArvore* raiz) {
     if (raiz != NULL) {
         liberarArvore(raiz->esquerda);
         liberarArvore(raiz->direita);
-        free(raiz->livro);
+        if (raiz->livro != NULL) free(raiz->livro);
         free(raiz);
     }
     return NULL;

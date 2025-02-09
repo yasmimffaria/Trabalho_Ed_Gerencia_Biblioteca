@@ -17,6 +17,8 @@ NodoArvore* rotacaoEsquerda(NodoArvore* x);
 NodoArvore* balancear(NodoArvore* nodo);
 NodoArvore* inserirLivroArvore(NodoArvore* raiz, Livro* livro);
 void imprimirArvoreEmOrdem(NodoArvore* raiz);
+NodoArvore* buscarLivroPorTitulo(NodoArvore* raiz, char* titulo);
+NodoArvore* removerLivroArvore(NodoArvore *raiz, int id);
 NodoArvore* liberarArvore(NodoArvore* raiz);
 
 #endif

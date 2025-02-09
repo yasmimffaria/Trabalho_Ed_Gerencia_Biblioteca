@@ -410,7 +410,7 @@ I 10408 Orgulho e Preconceito, Jane Austen,1813,Romance
 I 10409 Dom Casmurro, Machado de Assis,1899,Romance
 I 10410 Moby Dick, Herman Melville,1851,Aventura
 I 10411 O Grande Gatsby, F. Scott Fitzgerald,1925,Romance
-I 10412 As Crônicas de Nárnia: O Leão, a Feiticeira e o Guarda-Roupa, C.S. Lewis,1950,Fantasia
+I 10412 As Crônicas de Nárnia: O Leão a Feiticeira e o Guarda-Roupa, C.S. Lewis,1950,Fantasia
 I 10413 A Revolução dos Bichos, George Orwell,1945,Ficção
 I 10414 Cem Anos de Solidão, Gabriel García Márquez,1967,Romance
 I 10415 Guerra e Paz, Leo Tolstoy,1869,Histórico
@@ -435,7 +435,7 @@ I 10433 O Morro dos Ventos Uivantes, Emily Brontë,1847,Romance
 I 10434 O Senhor das Sombras, Cassandra Clare,2017,Fantasia
 I 10435 O Lobo de Wall Street, Jordan Belfort,2007,Autobiografia
 I 10436 A Cor Púrpura, Alice Walker,1982,Romance
-I 10437 O Andar do Bêbado, Leonard Mlodinow,2008,Não Ficção
+I 10437 O Andar do Bêbado, Leonard Mlodinow,2008,Ficção
 I 10438 A Sombra do Vento, Carlos Ruiz Zafón,2001,Romance
 I 10439 O Último Catão, Richelle Mead,2007,Fantasia
 I 10440 O Pássaro, Manuel Carneiro,2017,Romance

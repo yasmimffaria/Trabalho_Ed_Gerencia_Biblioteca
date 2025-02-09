@@ -8,7 +8,7 @@ void inicializaLista(ListaLivro* lista) {
 }
 
 void adicionaLivro(ListaLivro* lista, Livro* livro) {
-    livro->disponivel = 1;// inicializa o disponivel
+    livro->disponivel = 1; // inicializa o disponivel
     NodoLivro* novoNodo = (NodoLivro*)malloc(sizeof(NodoLivro));
     novoNodo->livro = livro;
     novoNodo->proximo = NULL;
@@ -21,12 +21,12 @@ void adicionaLivro(ListaLivro* lista, Livro* livro) {
     lista->ultimo = novoNodo;
 }
 
-void removeLivro(ListaLivro* lista, int id){
+void removeLivro(ListaLivro* lista, int id) {
     //procura na lista, algum item com esse id, aí remove ele
 
     // variaveis de auxilio
-    NodoLivro atual = lista->primeiro;
-    NodoLivroanterior = NULL;
+    NodoLivro* atual = lista->primeiro;
+    NodoLivro* anterior = NULL;
 
     //enquanto nao chegar no final, percorre procurando esse id
     while (atual != NULL) {
@@ -49,10 +49,10 @@ void removeLivro(ListaLivro* lista, int id){
                 if (atual == lista->ultimo) lista->ultimo = anterior;
             }
 
-            // libera a memmoria do item
+            // libera a memoria do item
             free(atual->livro);  // Libera a memória do livro
             free(atual);         // Libera a memória do nó
-            printf("\n - Livro com id %d foi removido com sucesso", id);
+            printf("\n - Livro com id %d foi removido com sucesso \n", id);
             return;
 
         }
@@ -65,20 +65,19 @@ void removeLivro(ListaLivro* lista, int id){
     // se nao achou o item, mostra isso
     printf("\n - Nao foi encontrado nenhum livro com o id %d. - ", id);
     return;
-
 }
 
 void imprimirLista(ListaLivro* lista) {
     NodoLivro* atual = lista->primeiro;
     while (atual != NULL) {
         Livro* livro = atual->livro;
-        printf("ID: %d, Titulo: %s, Autor: %s, Ano: %d, Genero: %s\n",
-               livro->id, livro->titulo, livro->autor, livro->anoPubl, livro->genero);
+       // printf("ID: %d, Titulo: %s, Autor: %s, Ano: %d, Genero: %s\n",
+               //livro->id, livro->titulo, livro->autor, livro->anoPubl, livro->genero);
         atual = atual->proximo;
     }
 }
 
-void lerArquivoEntrada(char *StrEntrada,ListaLivro* lista) {
+void lerArquivoEntrada(char *StrEntrada, ListaLivro* lista) {
 
     char Controle;
     char auxFinalLinha;
@@ -110,16 +109,16 @@ void lerArquivoEntrada(char *StrEntrada,ListaLivro* lista) {
     } while (1);
 }
 
-//livro dispponivel ou indisponivel verificacao
-void verificaDisponibildiade(ListaLivro* lista){
-  NodoLivro* atual = lista->primeiro;
-      while(atual != NULL){
+// livro disponivel ou indisponivel verificacao
+void verificaDisponibilidade(ListaLivro* lista) {
+    NodoLivro* atual = lista->primeiro;
+    while(atual != NULL) {
         Livro* livro = atual->livro;
-        if(livro->disponivel == 1){
-          printf("Livro disponivel: id %d, titulo %d", livro->id, livro->titulo);
+        if(livro->disponivel == 1) {
+            printf("Livro disponivel: id %d, titulo %s\n", livro->id, livro->titulo);
         } else {
-            printf("Livro indisponivel: id %d, titulo %d", livro->id, livro->titulo);
+            printf("Livro indisponivel: id %d, titulo %s\n", livro->id, livro->titulo);
         }
         atual = atual->proximo;
-      }
+    }
 }
