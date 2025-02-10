@@ -4,15 +4,17 @@
 
 #ifndef BIBLIOTECA_H
 #define BIBLIOTECA_H
+#include "fila.h"
 
-typedef struct Livro{
+typedef struct {
     int id;
+    char titulo[100];
+    char autor[100];
     int anoPubl;
-    char titulo[200];
-    char autor[200];
-    char genero[200];
-    int disponivel; //1 para disponivel e 0 para indis.
-}Livro;
+    char genero[50];
+    int disponivel; // 1 indica disponível, 0 indica emprestado
+    char usuario[100]; // Nome do usuário que emprestou o livro
+} Livro;
 
 typedef struct NodoLivro {
     Livro* livro;
@@ -31,6 +33,9 @@ void imprimirLista(ListaLivro* lista);
 void lerArquivoEntrada(char *StrEntrada,ListaLivro* lista);
 void menuBiblioteca(ListaLivro* lista);
 void verificaDisponibildiade(ListaLivro* lista);
+void emprestarLivro(Livro* livro, const char* usuario, Fila* fila);
+void devolverLivro(Livro* livro, Fila* fila);
+
 
 
 

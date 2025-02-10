@@ -122,3 +122,29 @@ void verificaDisponibilidade(ListaLivro* lista) {
         atual = atual->proximo;
     }
 }
+void emprestarLivro(Livro* livro, const char* usuario, Fila* fila) {
+    if (livro->disponivel) {
+        livro->disponivel = 0;
+        strcpy(livro->usuario, usuario);
+        Registro reg = {livro->id, 'E'};
+        strcpy(reg.usuario, usuario);
+        enfileirar(fila, reg);
+        printf("Livro emprestado com sucesso para %s.\n", usuario);
+    } else {
+        printf("Livro não disponível para empréstimo.\n");
+    }
+}
+
+// Função para devolver um livro
+void devolverLivro(Livro* livro, Fila* fila) {
+    if (!livro->disponivel) {
+        livro->disponivel = 1;
+        Registro reg = {livro->id, 'D'};
+        strcpy(reg.usuario, livro->usuario);
+        enfileirar(fila, reg);
+        printf("Livro devolvido com sucesso por %s.\n", livro->usuario);
+        strcpy(livro->usuario, ""); // Limpa o usuário que fez o empréstimo
+    } else {
+        printf("Livro já está disponível.\n");
+    }
+}
