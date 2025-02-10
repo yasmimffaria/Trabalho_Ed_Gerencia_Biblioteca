@@ -498,5 +498,5 @@ I 10496 A Ilha, Adam Gnade,2012,Romance
 I 10497 O Amor nos Tempos de Cólera, Gabriel García Márquez,1985,Romance
 I 10498 A Guerra do Velho, John Scalzi,2005,Ficção Científica
 I 10499 O Mundo de Sofia, Jostein Gaarder,1991,Filosofia
-I 10500 O Corredor da Morte, Stephen King,2000,Terror
+I 10500 O Corredor da Corda, Stephen King,2000,Terror
 F

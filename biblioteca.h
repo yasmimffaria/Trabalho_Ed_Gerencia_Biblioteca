@@ -6,22 +6,22 @@
 #define BIBLIOTECA_H
 
 typedef struct Livro{
-  int id;
-  int anoPubl;
-  char titulo[200];
-  char autor[200];
-  char genero[200];
-  int disponivel; //1 para disponivel e 0 para indis.
+    int id;
+    int anoPubl;
+    char titulo[200];
+    char autor[200];
+    char genero[200];
+    int disponivel; //1 para disponivel e 0 para indis.
 }Livro;
 
 typedef struct NodoLivro {
-  Livro* livro;
-  struct NodoLivro* proximo;
+    Livro* livro;
+    struct NodoLivro* proximo;
 } NodoLivro;
 
 typedef struct {
-  NodoLivro* primeiro;
-  NodoLivro* ultimo;
+    NodoLivro* primeiro;
+    NodoLivro* ultimo;
 } ListaLivro;
 
 void inicializaLista(ListaLivro* lista);
@@ -31,7 +31,7 @@ void imprimirLista(ListaLivro* lista);
 void lerArquivoEntrada(char *StrEntrada,ListaLivro* lista);
 void menuBiblioteca(ListaLivro* lista);
 void verificaDisponibildiade(ListaLivro* lista);
- 
+
 
 
 #endif

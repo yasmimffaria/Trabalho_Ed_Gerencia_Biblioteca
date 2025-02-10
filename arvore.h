@@ -4,10 +4,10 @@
 #include "biblioteca.h"
 
 typedef struct NodoArvore {
-	Livro* livro;                // item em si do nodo
-	int altura;                  // altura desse nodo
-	struct NodoArvore* esquerda; // filho da esquerda
-	struct NodoArvore* direita;  // filho da direita
+    Livro* livro;                // item em si do nodo
+    int altura;                  // altura desse nodo
+    struct NodoArvore* esquerda; // filho da esquerda
+    struct NodoArvore* direita;  // filho da direita
 } NodoArvore;
 
 int altura(NodoArvore* nodo);

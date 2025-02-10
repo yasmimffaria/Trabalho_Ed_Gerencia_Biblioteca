@@ -26,11 +26,10 @@ NodoArvore* rotacaoDireita(NodoArvore* y) {
     return x;
 }
 NodoArvore* removerLivroArvore(NodoArvore *raiz, int id) {
-    if (raiz == NULL) {
-        printf("Livro com ID %d não encontrado.\n", id);
+    if (raiz == NULL)
+    {   printf("Erro raiz vazia");
         return NULL;
-    }
-
+    };
     if (id < raiz->livro->id) {
         raiz->esquerda = removerLivroArvore(raiz->esquerda, id);
     } else if (id > raiz->livro->id) {

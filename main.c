@@ -17,13 +17,13 @@ void menu() {
 }
 
 int main(int argc, char **argv) {
-    if (argc != 3) {
-        printf("\nErro de Sintaxe\n");
-        printf("Usar: ./biblioteca.bin <entrada> <saida>\n\n");
-        return 1;
-    }
+    //if (argc != 3) {
+       // printf("\nErro de Sintaxe\n");
+      //  printf("Usar: ./biblioteca.bin <entrada> <saida>\n\n");
+//return 1;
+   // }
 
-    char *StrEntrada = argv[1];
+    char *StrEntrada = "/home/yasmim/CLionProjects/untitled/entrada.txt";
     char *StrSaida = argv[2];
     ListaLivro lista;
     inicializaLista(&lista);
@@ -72,10 +72,20 @@ int main(int argc, char **argv) {
                 }
             case 2:
                 {
-                    printf("Digite o ID do livro que deseja remover: ");
-                    scanf("%d", &id);
-                    removeLivro(&lista, id);
-                    removerLivroArvore(raiz, id);
+                    //printf("Digite o ID do livro que deseja remover: ");
+                    //scanf("%d", &id);
+                    printf("Digite o título do livro que deseja buscar: ");
+                    scanf(" %[^\n]", titulo);
+                    NodoArvore* result = buscarLivroPorTitulo(raiz, titulo);
+                    raiz = removerLivroArvore(result, result->livro->id);
+                    if (raiz != NULL)
+                    {
+                        removeLivro(&lista, result->livro->id);
+                    }else
+                    {
+                        printf("O livro foi removido ou nao existe!");
+                    }
+
                     break;
                 }
             case 3:
