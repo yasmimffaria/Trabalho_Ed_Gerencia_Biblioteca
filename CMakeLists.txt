@@ -8,5 +8,5 @@ add_executable(untitled main.c
         biblioteca.h
         arvore.c
         arvore.h
-        lista.c
-        lista.h)
+        fila.c
+        fila.h)
